@@ -1,0 +1,345 @@
+Folder PATH listing
+Volume serial number is 0096-B831
+C:.
+|   .gitignore
+|   AppIcon
+|   build.gradle
+|   CHANGELOG.md
+|   dependencies.json
+|   generate-app-icons.sh
+|   generate-header-images.sh
+|   generate-theme.js
+|   generate-tinted-icons.sh
+|   gradle.properties
+|   gradlew
+|   gradlew.bat
+|   HeaderImage
+|   HeaderImageDark
+|   NotificationIcon
+|   plugins.gradle
+|   REVISION
+|   settings.gradle
+|   tree.txt
+|   
++---.github
+|   |   dependabot.yml
+|   |   pull_request_template.md
+|   |   
+|   \---workflows
+|           android-ci-build.yml
+|           
++---.kotlin
+|   \---sessions
++---app
+|   |   .gitignore
+|   |   build.gradle
+|   |   proguard-project.txt
+|   |   
+|   \---src
+|       +---androidTest
+|       |   |   AndroidManifest.xml
+|       |   |   
+|       |   +---assets
+|       |   |       appConfig.json
+|       |   |       HelperClass.java
+|       |   |       
+|       |   \---java
+|       |       \---com
+|       |           \---median
+|       |               \---testFiles
+|       |                       FirstTestClass.java
+|       |                       TestMethods.java
+|       |                       
+|       +---main
+|       |   |   AndroidManifest.xml
+|       |   |   
+|       |   +---assets
+|       |   |   |   androidCustomCSS.css
+|       |   |   |   androidCustomJS.js
+|       |   |   |   appConfig.json
+|       |   |   |   BlobDownloader.js
+|       |   |   |   custom-icons.json
+|       |   |   |   customCSS.css
+|       |   |   |   customJS.js
+|       |   |   |   GoNativeJSBridgeLibrary.js
+|       |   |   |   offline.html
+|       |   |   |   
+|       |   |   \---fonts
+|       |   |           custom-icons.ttf
+|       |   |           
+|       |   +---java
+|       |   |   \---co
+|       |   |       \---median
+|       |   |           \---android
+|       |   |               |   ActionManager.kt
+|       |   |               |   AnimationUtil.kt
+|       |   |               |   AppLinksActivity.java
+|       |   |               |   AppUpgradeReceiver.java
+|       |   |               |   AudioUtils.java
+|       |   |               |   ConfigPreferences.java
+|       |   |               |   ConfigUpdater.java
+|       |   |               |   CustomHeaders.java
+|       |   |               |   DownloadService.java
+|       |   |               |   FileDownloader.java
+|       |   |               |   FileUploadContract.kt
+|       |   |               |   FileWriterSharer.java
+|       |   |               |   GoNativeApplication.java
+|       |   |               |   GoNativeWindowManager.java
+|       |   |               |   HtmlIntercept.java
+|       |   |               |   IconUtils.kt
+|       |   |               |   Installation.java
+|       |   |               |   IOUtils.java
+|       |   |               |   JsCustomCodeExecutor.java
+|       |   |               |   JsonMenuAdapter.java
+|       |   |               |   KeyboardManager.kt
+|       |   |               |   LaunchActivity.java
+|       |   |               |   LocationServiceHelper.kt
+|       |   |               |   LoginManager.java
+|       |   |               |   MainActivity.java
+|       |   |               |   MediaFileHelper.kt
+|       |   |               |   MedianEventsManager.java
+|       |   |               |   MySwipeRefreshLayout.java
+|       |   |               |   PermissionsUtil.kt
+|       |   |               |   RegistrationManager.java
+|       |   |               |   SideNavManager.kt
+|       |   |               |   SystemBarManager.kt
+|       |   |               |   TabManager.java
+|       |   |               |   ThemeUtils.java
+|       |   |               |   UrlInspector.java
+|       |   |               |   UrlLoader.kt
+|       |   |               |   UrlNavigation.java
+|       |   |               |   WebViewPool.java
+|       |   |               |   WebViewPoolDisownPolicy.java
+|       |   |               |   
+|       |   |               \---widget
+|       |   |                       BottomNavigationShowOnScrollBehavior.kt
+|       |   |                       CircleImageView.java
+|       |   |                       GoNativeDrawerLayout.java
+|       |   |                       GoNativeSwipeRefreshLayout.java
+|       |   |                       HandleView.kt
+|       |   |                       MedianLottieProgress.kt
+|       |   |                       SwipeHistoryNavigationLayout.kt
+|       |   |                       WebViewContainerView.java
+|       |   |                       
+|       |   \---res
+|       |       +---anim
+|       |       |       fast_fade_out.xml
+|       |       |       
+|       |       +---color
+|       |       |       bottom_bar_highlight_color.xml
+|       |       |       bottom_bar_text_color.xml
+|       |       |       
+|       |       +---drawable
+|       |       |       bg_nav_icon.xml
+|       |       |       ic_baseline_arrow_back_24.xml
+|       |       |       ic_baseline_arrow_forward_24.xml
+|       |       |       ic_close.xml
+|       |       |       ic_go_back.xml
+|       |       |       ic_go_forward.xml
+|       |       |       ic_print.xml
+|       |       |       ic_share.xml
+|       |       |       ic_stat_onesignal_default.xml
+|       |       |       shape_rounded.xml
+|       |       |       share_overflow_menu_rounded.xml
+|       |       |       
+|       |       +---drawable-hdpi
+|       |       |       drawer_shadow.9.png
+|       |       |       ic_actionbar.png
+|       |       |       ic_chevron_down_light.png
+|       |       |       ic_chevron_up_light.png
+|       |       |       ic_notification.png
+|       |       |       ic_refresh_black_24dp.png
+|       |       |       ic_refresh_white_24dp.png
+|       |       |       ic_search_black_24dp.png
+|       |       |       ic_search_white_24dp.png
+|       |       |       ic_share_black_24dp.png
+|       |       |       ic_share_white_24dp.png
+|       |       |       splash.png
+|       |       |       
+|       |       +---drawable-mdpi
+|       |       |       drawer_shadow.9.png
+|       |       |       ic_actionbar.png
+|       |       |       ic_chevron_down_light.png
+|       |       |       ic_chevron_up_light.png
+|       |       |       ic_notification.png
+|       |       |       ic_refresh_black_24dp.png
+|       |       |       ic_refresh_white_24dp.png
+|       |       |       ic_search_black_24dp.png
+|       |       |       ic_search_white_24dp.png
+|       |       |       ic_share_black_24dp.png
+|       |       |       ic_share_white_24dp.png
+|       |       |       splash.png
+|       |       |       
+|       |       +---drawable-night-hdpi
+|       |       |       ic_actionbar.png
+|       |       |       splash.png
+|       |       |       
+|       |       +---drawable-night-mdpi
+|       |       |       ic_actionbar.png
+|       |       |       splash.png
+|       |       |       
+|       |       +---drawable-night-xhdpi
+|       |       |       ic_actionbar.png
+|       |       |       splash.png
+|       |       |       
+|       |       +---drawable-night-xxhdpi
+|       |       |       ic_actionbar.png
+|       |       |       splash.png
+|       |       |       
+|       |       +---drawable-night-xxxhdpi
+|       |       |       ic_actionbar.png
+|       |       |       splash.png
+|       |       |       
+|       |       +---drawable-xhdpi
+|       |       |       drawer_shadow.9.png
+|       |       |       ic_actionbar.png
+|       |       |       ic_chevron_down_light.png
+|       |       |       ic_chevron_up_light.png
+|       |       |       ic_notification.png
+|       |       |       ic_refresh_black_24dp.png
+|       |       |       ic_refresh_white_24dp.png
+|       |       |       ic_search_black_24dp.png
+|       |       |       ic_search_white_24dp.png
+|       |       |       ic_share_black_24dp.png
+|       |       |       ic_share_white_24dp.png
+|       |       |       splash.png
+|       |       |       
+|       |       +---drawable-xxhdpi
+|       |       |       drawer_shadow.9.png
+|       |       |       ic_actionbar.png
+|       |       |       ic_chevron_down_light.png
+|       |       |       ic_chevron_up_light.png
+|       |       |       ic_notification.png
+|       |       |       ic_refresh_black_24dp.png
+|       |       |       ic_refresh_white_24dp.png
+|       |       |       ic_search_black_24dp.png
+|       |       |       ic_search_white_24dp.png
+|       |       |       ic_share_black_24dp.png
+|       |       |       ic_share_white_24dp.png
+|       |       |       splash.png
+|       |       |       
+|       |       +---drawable-xxxhdpi
+|       |       |       ic_actionbar.png
+|       |       |       ic_notification.png
+|       |       |       ic_refresh_black_24dp.png
+|       |       |       ic_refresh_white_24dp.png
+|       |       |       ic_search_black_24dp.png
+|       |       |       ic_search_white_24dp.png
+|       |       |       ic_share_black_24dp.png
+|       |       |       ic_share_white_24dp.png
+|       |       |       splash.png
+|       |       |       
+|       |       +---layout
+|       |       |       activity_median.xml
+|       |       |       app_bar_main.xml
+|       |       |       content_main.xml
+|       |       |       menu_child_icon.xml
+|       |       |       menu_child_noicon.xml
+|       |       |       menu_group_icon.xml
+|       |       |       menu_group_noicon.xml
+|       |       |       overflow_menu_item.xml
+|       |       |       overflow_menu_list_view.xml
+|       |       |       side_bar_header.xml
+|       |       |       view_handle.xml
+|       |       |       
+|       |       +---menu
+|       |       |       topmenu.xml
+|       |       |       
+|       |       +---mipmap-anydpi-v26
+|       |       |       ic_launcher.xml
+|       |       |       ic_launcher_round.xml
+|       |       |       
+|       |       +---mipmap-hdpi
+|       |       |       ic_launcher.png
+|       |       |       ic_launcher_foreground.png
+|       |       |       ic_sidebar_logo.png
+|       |       |       
+|       |       +---mipmap-mdpi
+|       |       |       ic_launcher.png
+|       |       |       ic_launcher_foreground.png
+|       |       |       ic_sidebar_logo.png
+|       |       |       
+|       |       +---mipmap-night-hdpi
+|       |       |       ic_sidebar_logo.png
+|       |       |       
+|       |       +---mipmap-night-mdpi
+|       |       |       ic_sidebar_logo.png
+|       |       |       
+|       |       +---mipmap-night-xhdpi
+|       |       |       ic_sidebar_logo.png
+|       |       |       
+|       |       +---mipmap-night-xxhdpi
+|       |       |       ic_sidebar_logo.png
+|       |       |       
+|       |       +---mipmap-night-xxxhdpi
+|       |       |       ic_sidebar_logo.png
+|       |       |       
+|       |       +---mipmap-xhdpi
+|       |       |       ic_launcher.png
+|       |       |       ic_launcher_foreground.png
+|       |       |       ic_sidebar_logo.png
+|       |       |       
+|       |       +---mipmap-xxhdpi
+|       |       |       ic_launcher.png
+|       |       |       ic_launcher_foreground.png
+|       |       |       ic_sidebar_logo.png
+|       |       |       
+|       |       +---mipmap-xxxhdpi
+|       |       |       ic_launcher.png
+|       |       |       ic_launcher_foreground.png
+|       |       |       ic_sidebar_logo.png
+|       |       |       
+|       |       +---values
+|       |       |       attrs.xml
+|       |       |       colors.xml
+|       |       |       dimens.xml
+|       |       |       ic_launcher_background.xml
+|       |       |       integers.xml
+|       |       |       strings.xml
+|       |       |       styles.xml
+|       |       |       
+|       |       +---values-ko
+|       |       |       strings.xml
+|       |       |       
+|       |       +---values-large
+|       |       |       styles.xml
+|       |       |       
+|       |       +---values-night
+|       |       |       colors.xml
+|       |       |       styles.xml
+|       |       |       
+|       |       +---values-sw600dp
+|       |       |       attr.xml
+|       |       |       dimens.xml
+|       |       |       
+|       |       +---values-sw720dp-land
+|       |       |       dimens.xml
+|       |       |       
+|       |       +---values-v27
+|       |       |       styles.xml
+|       |       |       
+|       |       \---xml
+|       |               filepaths.xml
+|       |               network_security_config.xml
+|       |               
+|       \---normal
+|           \---java
+|               \---co
+|                   \---median
+|                       \---android
+|                               GoNativeWebChromeClient.java
+|                               GoNativeWebviewClient.java
+|                               LeanWebView.java
+|                               PoolWebViewClient.java
+|                               WebkitCookieManagerProxy.java
+|                               WebViewInterface.java
+|                               WebViewSetup.java
+|                               
++---gradle
+|   \---wrapper
+|           gradle-wrapper.jar
+|           gradle-wrapper.properties
+|           
+\---plugins
+        .keep
+        
